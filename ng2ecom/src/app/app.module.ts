@@ -14,10 +14,10 @@ import { routing } from './app.routing';
 
 import {LocalStorageService} from './services/localStorage.service';
 import {HttpClientModule} from '@angular/common/http';
-import { DossierComponent } from './dossier/dossier.component';
-import { HomeComponent } from './home/home.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
+import { DossierComponent } from './components/dossier/dossier.component';
+import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
