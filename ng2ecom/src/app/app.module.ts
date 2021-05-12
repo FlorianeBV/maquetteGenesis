@@ -14,13 +14,21 @@ import { routing } from './app.routing';
 
 import {LocalStorageService} from './services/localStorage.service';
 import {HttpClientModule} from '@angular/common/http';
+import { DossierComponent } from './dossier/dossier.component';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FilterFieldPipe,
     OrderByPipe,
-    UpdateDataPipe
+    UpdateDataPipe,
+    DossierComponent,
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
